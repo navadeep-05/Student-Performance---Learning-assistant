@@ -1,0 +1,22 @@
+{
+    "dataset": "UCI Student Performance - Portuguese course",
+    "uci_dataset_id": 320,
+    "target": "G3",
+    "validation_risk_definition": {
+        "High": "G3 < 10",
+        "Medium": "10 <= G3 < 14",
+        "Low": "G3 >= 14"
+    },
+    "production_model_modified": false,
+    "production_model_retrained": false,
+    "production_model_overwritten": false,
+    "metrics": {
+        "accuracy": 0.5538461538461539,
+        "precision_weighted": 0.5542678639674885,
+        "recall_weighted": 0.5538461538461539,
+        "f1_weighted": 0.551863002550492,
+        "precision_macro": 0.4854236988154385,
+        "recall_macro": 0.490339472733839,
+        "f1_macro": 0.4853823438104545
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "model_name": "Random Forest Classifier",
+    "task": "Multiclass Student Risk Classification",
+    "classes": [
+        "High",
+        "Low",
+        "Medium"
+    ],
+    "random_state": 42,
+    "test_size": 0.2,
+    "features": [
+        "age",
+        "department",
+        "semester",
+        "attendance_pct",
+        "assignment_avg",
+        "assignment_completion_pct",
+        "quiz_avg",
+        "quiz_attempts",
+        "study_hours_week",
+        "participation_score",
+        "lms_login_count",
+        "lms_active_days",
+        "resources_accessed",
+        "video_completion_pct",
+        "previous_gpa",
+        "previous_failures",
+        "late_assignments",
+        "discussion_participation",
+        "support_requested",
+        "midterm_score"
+    ],
+    "excluded_columns": [
+        "student_id",
+        "final_score",
+        "performance_level",
+        "risk_level",
+        "gender"
+    ]
+}
