@@ -305,7 +305,7 @@ student_report = df[
 csv_data = student_report.to_csv(index=False).encode("utf-8")
 
 st.download_button(
-    label="📥 Download Student Report",
+    label="Download Student Report",
     data=csv_data,
     file_name=f"{selected_id}_performance_report.csv",
     mime="text/csv"
