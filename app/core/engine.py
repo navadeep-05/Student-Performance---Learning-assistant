@@ -467,7 +467,7 @@ def _get_secret(name):
 # generation. Keep the key outside source code.
 GENAI_MODEL = os.getenv(
     "GEMINI_MODEL",
-    "gemini-1.5-flash"
+    "gemini-3.6-flash"
 )
 
 # Never send these fields to the LLM as learning indicators.
