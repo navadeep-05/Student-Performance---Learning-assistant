@@ -172,7 +172,7 @@ Important Factors / SHAP
       +
 Learning Recommendations
       ↓
-Gemini LLM
+Gemini LLM (3.6-flash)
       ↓
 Natural-Language Explanation
 ```
