@@ -1,7 +1,5 @@
 # AI Student Performance Learning Assistant
 
-# 🎓 AI-Powered Student Performance & Learning Assistant
-
 An intelligent decision-support web application that analyzes student learning data, predicts academic risk, explains the factors influencing each prediction, and provides personalized learning recommendations.
 
 The system combines **Machine Learning, Explainable AI, Generative AI, and interactive analytics** to help faculty identify students who may need academic support at an early stage.
@@ -397,54 +395,6 @@ Each module focuses on a specific part of the analysis workflow.
 
 ---
 
-## 📁 Project Structure
-
-```text
-AI-powered Student Assistant/
-│
-├── .streamlit/
-│   └── config.toml
-│
-├── app/
-│   ├── app.py
-│   │
-│   ├── assets/
-│   │
-│   ├── core/
-│   │   ├── __init__.py
-│   │   └── engine.py
-│   │
-│   └── pages/
-│       ├── home.py
-│       ├── student_analysis.py
-│       ├── what_if.py
-│       ├── ai_insights.py
-│       └── model_information.py
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── models/
-│   ├── student_risk_model.pkl
-│   └── model_metadata.json
-│
-├── notebooks/
-│   ├── data_understanding.ipynb
-│   ├── data_preprocessing.ipynb
-│   ├── machine_learning.ipynb
-│   └── real_world_validation.ipynb
-│
-├── reports/
-│   └── real_world_validation/
-│
-├── src/
-│
-├── generate_dataset.py
-├── requirements.txt
-└── README.md
-```
-
 ---
 
 ## ▶️ Running the Project Locally
@@ -559,7 +509,7 @@ If an API key is accidentally exposed publicly, it should be revoked and replace
 
 ## ⚠️ Important Considerations
 
-This application is an educational prototype and decision-support system.
+This application is an educational prototype and decision-support system. It is built and trained on synthetic dataset inspired from real dataset factors.
 
 Predictions represent patterns learned by the machine-learning model and should **not** be treated as definitive judgments about students.
 
@@ -569,9 +519,7 @@ Academic interventions should consider:
 - Student circumstances
 - Institutional context
 - Additional academic evidence
-
-The system should support human decision-making rather than replace it.
-
+- 
 ---
 
 ## 🔭 Future Improvements
@@ -582,12 +530,9 @@ Potential extensions include:
 - Larger external validation studies
 - Improved model calibration and hyperparameter optimization
 - Additional explainability visualizations
-- Longitudinal student-performance tracking
-- Faculty authentication and role-based access
 - Database integration
 - Automated student progress reports
 - Enhanced GenAI recommendations
-- Cloud-based model/API architecture
 
 ---
 
@@ -607,14 +552,6 @@ Developed as a guided internship project for the **Generative AI Technical Team 
 **Domain:** Machine Learning & Generative AI  
 **Level:** Junior Intern  
 **Difficulty:** Intermediate
-
----
-
-## 📜 Disclaimer
-
-This project is intended for educational, research, and prototype purposes.
-
-The generated risk predictions, explanations, recommendations, and What-If scenarios should be interpreted as **decision-support information**, not as final academic decisions.
 
 ---
 
